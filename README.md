@@ -12,6 +12,7 @@ Use the package manager [npm](https://www.npmjs.com/) to install dependencies.
 npm i nodemon --save-dev
 npm i jest --save-dev
 npm i crypto-js --save
+npm i express --save
 ```
 
 ## Usage
