@@ -16,11 +16,18 @@ npm i crypto-js --save
 
 ## Usage
 
-Run tests
+Run tests (use either)
 
 ```bash
 npm run test
 npm run dev-test
+```
+
+Run API (use either)
+
+```bash
+npm start
+npm run dev
 ```
 
 ## Contributing
