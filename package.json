@@ -1,6 +1,6 @@
 {
   "name": "genesis-block-chain",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.js",
   "scripts": {
     "test": "jest --watchAll",
@@ -17,7 +17,9 @@
   },
   "description": "",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "crypto-js": "^4.1.1",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "ws": "^8.2.3"
   }
 }
