@@ -26,9 +26,11 @@ npm run dev-test
 
 Run API (use either)
 
+Optional variables are marked by square brackets. Remove the square brackets and replace desired port with the port you wish to run the P2P and/or HTTP server on.
+
 ```bash
 npm start
-npm run dev
+npm run dev [P2P_PORT=desired port] [HTTP_PORT=desired port]
 ```
 
 ## Contributing
