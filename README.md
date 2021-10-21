@@ -13,6 +13,8 @@ npm i nodemon --save-dev
 npm i jest --save-dev
 npm i crypto-js --save
 npm i express --save
+npm i body-parser --save
+npm i ws --save
 ```
 
 ## Usage
