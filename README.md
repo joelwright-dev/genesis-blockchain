@@ -15,6 +15,7 @@ npm i crypto-js --save
 npm i express --save
 npm i body-parser --save
 npm i ws --save
+npm i elliptic --save
 ```
 
 ## Usage
