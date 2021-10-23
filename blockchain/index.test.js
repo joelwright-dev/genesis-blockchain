@@ -2,7 +2,7 @@ const Blockchain = require('./index')
 const Block = require('./block')
 
 describe('Blockchain', () => {
-    let blockchain
+    let blockchain, blockchain2
 
     beforeEach(() => {
         blockchain = new Blockchain()
@@ -26,7 +26,7 @@ describe('Blockchain', () => {
         expect(blockchain.isValidChain(blockchain2.chain)).toBe(true)
     })
 
-    it('validates a chain with a corrupt genesis block', () => {
+    it('invalidates a chain with a corrupt genesis block', () => {
         blockchain2.chain[0].data = 'bad data'
 
         expect(blockchain.isValidChain(blockchain2.chain)).toBe(false)
