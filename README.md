@@ -2,6 +2,10 @@
 
 The Genesis blockchain is the future host of my very own Genesis coin (GEN). This is more of a project than anything but given enough development could be deployed.
 
+## NOTE
+
+The README.md is not up to date! This is because the system does not visibly do anything different but behind the scenes files have been added.
+
 ## Installation
 
 Install [node.js](https://nodejs.org/en/)
