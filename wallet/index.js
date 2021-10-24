@@ -16,6 +16,10 @@ class Wallet {
 
         return console.table(thisWallet)
     }
+
+    sign(dataHash) {
+        return this.keyPair.sign(dataHash)
+    }
 }
 
 module.exports = Wallet
