@@ -20,6 +20,7 @@ npm i express --save
 npm i body-parser --save
 npm i ws --save
 npm i elliptic --save
+npm i uuid --save
 ```
 
 ## Usage
